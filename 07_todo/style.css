@@ -1,0 +1,19 @@
+body {
+    background-color: #212121;
+    color: #fff;
+}
+
+.todo-list {
+    border-top: 2px solid #555;
+    margin-top: 10px;
+}
+
+.todo-item {
+    cursor: pointer;
+    width: min-content;
+}
+
+.todo-item:hover {
+    color: #c82333;
+    text-decoration: line-through;
+}
