@@ -46,6 +46,22 @@ This repository features curated list of projects focused on building strong fou
 
 ## 22. Music Player
 
-## 23. Unlimited Colors
+## 23. Bill Split App
 
-## 24. GitHub Profile Viewer
+## 24. Color Palette Generator
+
+## 25. Countdown Timer
+
+## 26. Counter
+
+## 27. Random Color Generator
+
+## 28. Simon Game
+
+## 29. String Transformers
+
+## 30. Trailing Color Boxes
+
+## 31. Unlimited Colors
+
+## 32. GitHub Profile Viewer
