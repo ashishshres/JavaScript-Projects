@@ -1,0 +1,38 @@
+body {
+    padding: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.accordion {
+    background-color: aliceblue;
+    padding: 10px 25px;
+    border-radius: 7px;
+    cursor: pointer;
+    border: 2px solid #212121;
+}
+
+.question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.answer {
+    color: #333;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height linear 0.2s;
+}
+
+i {
+    transition: transform linear 0.2s;
+}
+
+i.active {
+    transform: rotate(-180deg);
+}
