@@ -4,19 +4,33 @@ This repository features curated list of projects focused on building strong fou
 
 ## 1. Color Changer
 
+![](./images/color-changer.gif)
+
 ## 2. BMI Calculator
+
+![](./images/bmi-calculator.gif)
 
 ## 3. Digital Clock
 
+![](./images/digital-clock.gif)
+
 ## 4. Guess the number
+
+![](./images/guess-the-number.gif)
 
 ## 5. Key Codes
 
+![](./images/key-codes.gif)
+
 ## 6. Modal
+
+![](./images/modal.gif)
 
 ## 7. TODO
 
 ## 8. Password Generator
+
+![](./images/password-generator.gif)
 
 ## 9. TicTacToe
 
