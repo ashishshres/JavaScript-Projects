@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#board {
+    display: flex;
+    gap: 25px;
+}
+
+.box1,
+.box2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: bisque;
+    height: 200px;
+    width: 400px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
