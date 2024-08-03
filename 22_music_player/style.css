@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: #212121;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(12px);
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.player-container {
+    border-radius: 10px;
+    width: 400px;
+    background-color: #333;
+    padding: 5px;
+}
+
+.current-play {
+    padding: 15px;
+    display: flex;
+    gap: 15px;
+}
+
+.current-play .left {
+    border-radius: 5px;
+    height: 125px;
+    width: 125px;
+    background-color: #444;
+    background-size: cover;
+}
+
+.music-list {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px;
+}
+
+.music-list .music {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    border-top: 1px solid #444;
+}
+
+.music-list .music:hover {
+    background-color: #292929;
+    cursor: pointer;
+}
+
+.music-list .music .left {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    pointer-events: none;
+}
+
+.music-list .music .right {
+    pointer-events: none;
+}
+
+.music-thumbnail {
+    height: 55px;
+    width: 55px;
+    background-color: cadetblue;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.music-thumbnail img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px 0;
+}
+
+i {
+    font-size: 2rem;
+}
+
+.controls button {
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: #222;
+    color: #fff;
+}
+
+.controls button:active {
+    transform: scale(0.9);
+}
