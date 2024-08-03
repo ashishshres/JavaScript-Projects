@@ -1,33 +1,56 @@
-html {
-    margin: 0;
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-span {
-    display: block;
-}
-.canvas {
-    margin: 100px auto 100px;
-    width: 80%;
-    text-align: center;
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
 
-.button {
-    width: 100px;
-    height: 100px;
-    border: solid black 2px;
-    display: inline-block;
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2vw;
+  font-family: "Fraunces", serif;
 }
 
-#grey {
-    background: grey;
+main {
+  display: flex;
+  gap: 1vw;
 }
 
-#white {
-    background: white;
+div {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
-#blue {
-    background: blue;
+
+div:hover {
+  transform: scale(0.95);
 }
-#yellow {
-    background: yellow;
+
+.grey {
+  background-color: grey;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.skyblue {
+  background-color: skyblue;
 }
