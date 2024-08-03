@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Split</title>
+    <link rel="stylesheet" href="./sources/styles/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Bill Split</h1>
+    </header>
+    <main>
+        <div class="bill-input">
+            <div class="input-container">
+                <label>Bill</label>
+                <div class="amount-container">
+                    <span>रु</span>
+                    <input type="text" placeholder="Enter amount" id="input-amount">
+                </div>
+            </div>
+            <div class="tip-container">
+                <label>Select Tip</label>
+                <div class="tip-btns">
+                    <button value="5">5%</button>
+                    <button value="10">10%</button>
+                    <button value="15">15%</button>
+                    <button value="25">25%</button>
+                    <button value="50">50%</button>
+                    <button value="75">75%</button>
+                </div>
+                <input type="text" name="" id="custom-tip" placeholder="Custom Tip">
+            </div>
+            <div class="people-container">
+                <label>Number Of People</label>
+                <input type="text" name="" id="people" placeholder="1">
+            </div>
+            <button class="generate-bill">Generate Bill</button>
+        </div>
+        <div class="bill-output">
+            <div class="total-amount">
+                <div class="output">
+                    <h4>Tip Amount</h4>
+                    <div class="output-container">
+                        <span>रु</span>
+                        <span class="tip-value"></span>
+                    </div>
+                </div>
+                <div class="output">
+                    <h4>Total</h4>
+                    <div class="output-container">
+                        <span>रु</span>
+                        <span class="total-value"></span>
+                    </div>
+                </div>
+                <div class="output">
+                    <h4>Each Person Bill</h4>
+                    <div class="output-container">
+                        <span>रु</span>
+                        <span class="person-bill"></span>
+                    </div>
+                </div>
+            </div>
+            <button class="reset-btn">Reset</button>
+        </div>
+    </main>
+    <script src="./sources/scripts/main.js"></script>
+</body>
+
+</html>
