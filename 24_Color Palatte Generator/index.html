@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Palette Generator</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./sources/styles/app.css">
+    <script src="./sources/scripts/app.js" defer></script>
+</head>
+
+<body class="dark">
+    <div class="app">
+        <!-- <div class="toggleMode">
+            <i class="ri-moon-fill"></i>
+        </div> -->
+        <h1>
+            <i class="ri-palette-line"></i>
+            Color Palette Generator
+        </h1>
+        <div class="generator">
+            <div class="container">
+                <label class="num">Number of Colors</label>
+                <input type="text" id="num-colors" placeholder="Enter number of colors">
+            </div>
+            <div class="container">
+                <label>Color Format</label>
+                <select id="format">
+                    <option value="hex">HEX</option>
+                    <option value="rgb">RGB</option>
+                </select>
+            </div>
+            <div class="btns">
+                <button class="generate">Generate</button>
+                <button class="clear">Clear</button>
+            </div>
+            <div class="colors">
+            </div>
+        </div>
+    </div>
+    <div class="alert"></div>
+</body>
+
+</html>
