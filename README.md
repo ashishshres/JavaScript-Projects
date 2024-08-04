@@ -114,4 +114,8 @@ This repository features curated list of projects focused on building strong fou
 
 ## 32. GitHub Profile Viewer
 
-![](./images/profile-viewer.gif)
+![](./images/github-profile-viewer.gif)
+
+## 33. Image Finder
+
+![](./images/image-finder.gif)
