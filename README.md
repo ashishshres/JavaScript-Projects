@@ -119,3 +119,7 @@ This repository features curated list of projects focused on building strong fou
 ## 33. Image Finder
 
 ![](./images/image-finder.gif)
+
+## 34. Weather App
+
+![](./images/weather-app.gif)
